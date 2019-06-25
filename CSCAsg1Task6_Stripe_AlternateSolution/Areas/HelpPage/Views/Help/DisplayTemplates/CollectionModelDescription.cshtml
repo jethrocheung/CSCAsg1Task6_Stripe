@@ -1,0 +1,6 @@
+@using CSCAsg1Task6_Stripe_AlternateSolution.Areas.HelpPage.ModelDescriptions
+@model CollectionModelDescription
+@if (Model.ElementDescription is ComplexTypeModelDescription)
+{
+    @Html.DisplayFor(m => m.ElementDescription)
+}
